@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam Data Analysis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="data_card.html">Dataset</a>
+</nav>
+
+<main>
+  <h1>Analyzing 83,000 Steam Games</h1>
+  <p>An analysis of the Steam games dataset from May 2024, covering 83,646 titles.</p>
+
+  <section id="background">
+    <h2>Background</h2>
+    <p>Steam is the largest PC gaming platform. This dataset captures every game listed as of May 2024, including release dates, platform support, DLC counts, and average playtime.</p>
+  </section>
+
+  <section class="question">
+    <h2>Question 1: How has the number of releases changed over time?</h2>
+    <p>Releases grew 56x between 2010 and 2023, from 254 to 14,224 games per year.</p>
+    <img class="viz" src="images/releases_per_year.png" alt="Bar chart showing Steam game releases per year from 2010 to 2023">
+  </section>
+
+  <section class="question">
+    <h2>Question 2: How has platform support changed over time?</h2>
+    <p>Mac and Linux support have been declining over time, with Mac games peaking at almost 50 percent in 2013 and falling to less than 15 percent by 2024.</p>
+    <img class="viz" src="images/releases_maclinux_time.png" alt="Line chart showing Mac and Linux support percentage over time">
+  </section>
+
+  <section class="question">
+    <h2>Question 3: Do DLCs affect how long people play?</h2>
+    <p>Games with more DLCs gain significantly more average playtime.</p>
+    <img class="viz" src="images/platime_dlccount.png" alt="Chart showing DLC count versus average playtime">
+  </section>
+
+  <section id="takeaways">
+    <h2>Takeaways</h2>
+    <p>Steam's catalog has exploded in size over the past decade, but that growth has been almost entirely Windows-only. Mac and Linux support peaked years ago and has steadily dropped as the flood of new releases skews toward a single platform. Meanwhile, DLC appears to be strongly linked to player engagement — games that invest in additional content see meaningfully higher average playtime. Together, these trends paint a picture of a platform that is growing fast but narrowing in some ways.</p>
+  </section>
+</main>
+
+</body>
+</html>

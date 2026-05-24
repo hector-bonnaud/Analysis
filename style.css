@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Workbench'); 
+
+:root {
+    --c1: #000000;
+    --c2: #ddf8e8;
+    --c3: #3b4850;
+    --c4: #B8DBD9;
+    --c5: #F4F4F9;
+    --c6: #FD5E53;
+}
+
+body {
+    font-family: "Doto", sans-serif;
+    background-color: var(--c5);
+    color: var(--c1);
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    background-color: var(--c2);
+    padding: 14px 30px; 
+}
+
+nav a {
+    color: var(--c3);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;/*This command was obtained through a query with claude.ai but implemented manually*/
+    padding: 40px 20px;
+}
+
+h1 {
+    color: var(--c6);
+}
+
+h2 {
+    color: var(--c6);
+    border-bottom: 2px solid var(--c1);
+    padding-bottom: 4px;
+    margin-top: 36px;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid var(--c3);
+    border-radius: 4px;
+}

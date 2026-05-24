@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam Games Dataset</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="data_card.html">Dataset</a>
+</nav>
+
+<main>
+  <h1>Analyzing 83,000 Steam Games: Dataset</h1>
+  <p>A look at the dataset behind the analysis.</p>
+
+  <section id="source">
+    <h2>Source</h2>
+    <p>This dataset was sourced from Kaggle and contains information on 83,646 games listed on Steam as of May 2024. It was compiled by scraping the Steam store and SteamSpy APIs.</p>
+    <p><a class="data-link" href="https://www.kaggle.com/datasets/fronkongames/steam-games-dataset">View the dataset on Kaggle</a></p>
+  </section>
+
+  <section id="contents">
+    <h2>What the data contains</h2>
+    <p>Each row represents a single game. Key columns used in this analysis include release date, Windows/Mac/Linux support flags, DLC count, and average playtime. The full dataset also includes fields like price, genres, tags, estimated owners, and review scores.</p>
+  </section>
+
+  <section id="cleaning">
+    <h2>Cleaning</h2>
+    <p>Release dates were converted to datetime format, and rows with missing or unparseable dates were dropped. The analysis was filtered to the 2010–2023 range to focus on the modern era of Steam releases.</p>
+  </section>
+</main>
+
+</body>
+</html>
